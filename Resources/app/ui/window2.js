@@ -1,6 +1,8 @@
-var _style,_tab;
+var _tab;
 
 function Window2(tab) {
+	var _style = require('/app/style/window2');
+	
 	_tab = tab
 	var win = Titanium.UI.createWindow(_style.window);
 
@@ -12,24 +14,6 @@ function Window2(tab) {
 }
 function _openWindow2(){
 	_tab.open(new(require('/app/ui/window2'))(_tab));
-} 
-
-_style = {};
-
-_style.window = {
-	title : 'Tab 2',
-	backgroundColor : '#fff'
-}
-
-_style.label = {
-	color : '#999',
-	text : L('label2'),
-	font : {
-		fontSize : 20,
-		fontFamily : 'Helvetica Neue'
-	},
-	textAlign : 'center',
-	width : 'auto'
 }
 
 // Export

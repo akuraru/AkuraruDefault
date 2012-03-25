@@ -1,1 +1,0 @@
-/Users/akuraru/Documents/Titanium Studio Workspace/AkuraruDefault/Resources/UI/window1.js
